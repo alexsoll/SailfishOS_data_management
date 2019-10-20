@@ -9,7 +9,6 @@ Page {
         var params = 'q=' + encodeURIComponent(input) + '&target=' + encodeURIComponent(target)
         var xhr = new XMLHttpRequest();
         xhr.open('GET', "http://www.cbr.ru/scripts/XML_daily.asp"+params, true);
-        //xhr.setRequestHeader("Content-type")
         xhr.onreadystatechange = function() {
             if (xhr.readyState == XMLHttpRequest.DONE) {
                 xmlmodel.xml = xhr.responseText;

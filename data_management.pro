@@ -18,6 +18,7 @@ SOURCES += src/data_management.cpp
 
 DISTFILES += qml/data_management.qml \
     qml/cover/CoverPage.qml \
+    qml/pages/Dao.qml \
     qml/pages/FirstPage.qml \
     qml/pages/SecondPage.qml \
     qml/pages/Task_3.qml \

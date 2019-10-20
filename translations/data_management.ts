@@ -18,5 +18,17 @@
         <source>Task 3</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Task 4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Task 5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Task 6</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
