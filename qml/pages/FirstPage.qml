@@ -17,6 +17,10 @@ Page {
                 text: qsTr("Task 3")
                 onClicked: pageStack.push(Qt.resolvedUrl("Task_3.qml"))
             }
+            MenuItem {
+                text: qsTr("Task 4")
+                onClicked: pageStack.push(Qt.resolvedUrl("Task_4.qml"))
+            }
         }
 
         contentHeight: column.height
