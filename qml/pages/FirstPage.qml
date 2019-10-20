@@ -10,11 +10,10 @@ Page {
     // To enable PullDownMenu, place our content in a SilicaFlickable
     SilicaFlickable {
         anchors.fill: parent
-
         // PullDownMenu and PushUpMenu must be declared in SilicaFlickable, SilicaListView or SilicaGridView
         PullDownMenu {
             MenuItem {
-                text: qsTr("Show Page 2")
+                text: qsTr("Task 2")
                 onClicked: pageStack.push(Qt.resolvedUrl("SecondPage.qml"))
             }
         }
@@ -32,7 +31,7 @@ Page {
          }
          SilicaListView {
              anchors.fill:  parent
-             header: PageHeader {title: "List"}
+             header: PageHeader {title: "Task 1"}
              model: datamodel
              delegate: Rectangle {
                  width: parent.width
