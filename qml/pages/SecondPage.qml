@@ -4,18 +4,15 @@ import Sailfish.Silica 1.0
 Page {
     id: page
 
-    // The effective value will be restricted by ApplicationWindow.allowedOrientations
     allowedOrientations: Orientation.All
     ListModel {
         id: datamodel
     }
-    //SilicaFlickable {
     SilicaListView {
         id: lst
         width: parent.width;
         height: parent.height - addButton.height
         property int num_remove_item: 0
-        //header: PageHeader {title: "List"}
         model: datamodel
         delegate:
             Rectangle {

@@ -20,6 +20,12 @@ DISTFILES += qml/data_management.qml \
     qml/cover/CoverPage.qml \
     qml/pages/FirstPage.qml \
     qml/pages/SecondPage.qml \
+    qml/pages/Task_3.qml \
+    qml/pages/Task_4.qml \
+    qml/pages/Task_5.qml \
+    qml/pages/Task_6.qml \
+    qml/pages/Task_7.qml \
+    qml/pages/Task_8.qml \
     rpm/data_management.changes.in \
     rpm/data_management.changes.run.in \
     rpm/data_management.spec \
