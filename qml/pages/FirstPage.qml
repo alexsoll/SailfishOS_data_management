@@ -31,8 +31,6 @@ Page {
             }
         }
 
-        contentHeight: column.height
-
          ListModel {
              id: datamodel
              ListElement {color: "orange"; text: "orange"; }
