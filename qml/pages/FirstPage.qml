@@ -29,6 +29,10 @@ Page {
                 text: qsTr("Task 6")
                 onClicked: pageStack.push(Qt.resolvedUrl("Task_6.qml"))
             }
+            MenuItem {
+                text: qsTr("Task 7")
+                onClicked: pageStack.push(Qt.resolvedUrl("Task_7.qml"))
+            }
         }
 
          ListModel {
