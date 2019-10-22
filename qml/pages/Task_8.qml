@@ -9,6 +9,7 @@ Page {
         id: settings;
         path: "/apps/app_name/setting";
         property bool set: false;
+        property string text: ""
     }
     TextField {
         width: parent.width
@@ -39,10 +40,18 @@ Page {
         anchors.margins: 10
         anchors.horizontalCenter: parent.horizontalCenter
         text: "Save"
+        id: saveButton
         onClicked: {
+            settings.text = txtfield.text
             settings.setValue(settings.set, txtfield.text)
             lb.text = "Setting " + txtfield.text + " is saved"
         }
     }
-
+    Button {
+        anchors.top: saveButton.bottom
+        anchors.horizontalCenter: parent.horizontalCenter
+        width: parent.width
+        text: "Print settings"
+        onClicked: txtfield.text = settings.text + " is was saved"
+    }
 }

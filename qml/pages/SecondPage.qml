@@ -33,6 +33,7 @@ Page {
                     text: model.text// + model.index
                 }
             }
+
     }
     Button {
         property int tmp: datamodel.count+lst.num_remove_item
